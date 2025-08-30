@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)http://localhost/voting/partials/dashboard.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting system - Dashboard</title>
+    <link href="./Voting system - Dashboard_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./Voting system - Dashboard_files/style.css">
+</head>
+<body class="bg-dark text-light">
+   <div class="container my-5">
+    <a href="http://localhost/voting/"><button class="btn btn-secondary text-light px-3"> BACK </button> </a>
+    <a href="http://localhost/voting/partials/logout.php"><button class="btn btn-secondary text-light px-3"> LOGOUT </button> </a>
+    <h1 class="my-3"> VOTING SYSTEM </h1>
+    <div class="row my-5">
+        <div class="col-md-7">
+                            <div class="row">
+                <div class="col md-4">
+                    <img src="./Voting system - Dashboard_files/Screenshot 2025-04-03 154353.png" alt=" Group Image">
+                </div>
+                <div class="col md-8">
+                    <strong class="text- h5"> Group Name : </strong>
+                    ash <br>
+                  
+                    
+                </div>
+            </div>
+            
+           
+            <form action="http://localhost/voting/actions/voting.php" method="post">
+                <input type="hidden" name="groupvotes" value="1">
+                <input type="hidden" name="groupid" value="24">
+
+                                    <button class="bg-success my-3 text-white px=3">Voted</button>
+                                </form> 
+            <hr>
+                            <div class="row">
+                <div class="col md-4">
+                    <img src="./Voting system - Dashboard_files/Screenshot 2024-11-30 131815.png" alt=" Group Image">
+                </div>
+                <div class="col md-8">
+                    <strong class="text- h5"> Group Name : </strong>
+                    congress <br>
+                  
+                    
+                </div>
+            </div>
+            
+           
+            <form action="http://localhost/voting/actions/voting.php" method="post">
+                <input type="hidden" name="groupvotes" value="2">
+                <input type="hidden" name="groupid" value="25">
+
+                                    <button class="bg-success my-3 text-white px=3">Voted</button>
+                                </form> 
+            <hr>
+                        
+        </div>
+
+        <div class="col-md-5">
+            <!-- user profile -->
+        <img src="./Voting system - Dashboard_files/id card.jpg" alt="User image">
+        <br>
+        <br>
+        <strong class="text- h5"> Name : </strong> <br>
+        ashwini <br> <br>
+        <strong class="text- h5"> Mobile  : </strong> <br>
+        8296315865 <br> <br>
+        <strong class="text- h5"> Status : </strong> <br>
+        <b class="text-success">Voted</b> <br> <br>
+        </div>
+    </div>
+   </div>
+
+
+
+</body></html>
